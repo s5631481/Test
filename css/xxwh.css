@@ -1,0 +1,139 @@
+body{
+	margin: 0;
+	padding: 0;
+	margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    /*top: 0;
+    bottom: 0;*/
+   font: 14px/1.5 "Microsoft YaHei", Arial, Tahoma, Helvetica, sans-serif;
+   
+}
+
+/*content2*/
+.shover a:hover{
+	color: cornflowerblue;
+}
+.shover a{
+	text-decoration:none;
+	color: black;
+}
+.shover span {
+    font-size: 17px;
+    color: #94774d;
+    padding-right: 3px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+.li_img img{
+	height: 310px;
+	width: 310px;
+}
+#ul_list{
+	  list-style-type: none;
+	  padding: 0;
+	  padding-left: 10px;
+}
+.shover{
+	float: left;
+	width:320px;
+	margin-bottom: 20px;
+	margin-right: 18px;
+}
+.content_2{
+	width: 1024px;
+	height: 390px;
+	margin: 0;
+	padding: 0;
+	margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 625px;
+}
+
+/*content1*/
+.content_1 .title2 {
+    text-align: center;
+    font-size: 26px;
+    color: #474747;
+    line-height: 1.2;
+       position: absolute;
+    top: 590px;
+    left: 0;
+    right: 0;
+}
+.content_1 .tit-span + span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    margin-top: -22px;
+}
+.content_1 .title2 span.tit-span img {
+    height: 32px;
+    width: 22px;
+}
+/*header*/
+.div_bangner{
+	width: 1024px;
+	height: 600px;
+	background-image: url(../img/mgk_4_3.jpg);
+	margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.div_bangner .position{position: absolute;top: 0;left: 0;right: 0;color: #fff;}
+.div_bangner .foucs {background: rgba(0,0,0,0.2);height: 100%;position: absolute;top: 0;right: 0;padding: 0 40px;width: 325px;}
+.div_bangner .frame{margin-top: 60px;height: auto;overflow:hidden;}
+.div_bangner .foucs .child h2{font-size: 24px;color: #fff;text-align:justify;font-weight:bold;}
+.div_bangner .foucs .child p{color: #fff;}
+.div_bangner .foucs .child .p1{font-size: 16px;margin-top: 10px;}
+.div_bangner .foucs .child .p2{font-size: 16px;margin-top: 15px;}
+.div_bangner .foucs .child .p3{font-size: 20px;font-weight: bold;}
+.div_bangner .foucs .child .more{ text-decoration: none;font-size: 18px; color: #9f7b4b; margin-top: 20px; display: block;background: url(../img/hd1img3.png) no-repeat center;width: 121px;text-align: center;line-height:37px;height: 37px;/* margin-left:2px; */}
+.div_bangner .foucs .next{background-position: right center;} 
+.bg1 {
+    background: url(../img/hd1img1.png) no-repeat center;
+    height: 119px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+}
+
+
+/*导航栏*/
+.navigation ul {
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+}
+.navigation li {
+  float: left;
+}
+
+.navigation li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation li a:hover {
+  color: white;
+  background-color: #cb1c1d;
+}
+.navigation {
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+  background: #f6f6f6;
+  margin-bottom: 5px;
+}
+
+
